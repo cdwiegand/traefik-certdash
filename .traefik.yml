@@ -1,0 +1,7 @@
+displayName: View the certbot certificates in Traefik
+type: middleware
+import: github.com/cdwiegand/traefik-certdash
+basePkg: certdash
+summary: 'Lists certificates from Traefik's certbot configuration'
+testData:
+  sanitizeExposingHeaders: true
